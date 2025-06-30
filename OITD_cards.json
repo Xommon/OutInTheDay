@@ -3,30 +3,30 @@
     "title": "Eli Tea Bar",
     "description": "Polished outfit with vibrant decor serving loose leaf, matcha & bubble teas, plus pastries.",
     "image": "https://lh3.googleusercontent.com/p/AF1QipNr0vg5BuTYohcGwRhOb-HU1V6HRZebxm7ww5m2=s680-w680-h510",
-    "tags": ["gay", "lesbian", "trans", "bisexual", "morning", "afternoon", "evening", "spaces"]
+    "tags": ["morning", "afternoon", "evening", "spaces"]
   },
   {
     "title": "Anne's Haven",
     "description": "Anne's Haven is a social space for all women.",
     "image": "https://lh3.googleusercontent.com/p/AF1QipP0W-Z0oAalWVIDtNi4EG3Rvuxq8J6h0KzITrXB=s680-w680-h510",
-    "tags": ["bisexual", "lesbian", "trans", "morning", "afternoon", "evening", "groups", "spaces"]
+    "tags": ["lesbian", "morning", "afternoon", "evening", "groups", "spaces"]
   },
   {
     "title": "Bendición Dry Bar",
     "description": "Chicago based online non-alcoholic bottle shop.",
     "image": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2022/11/bottle-shop.jpg?fit=780%2C544&ssl=1",
-    "tags": ["gay", "lesbian", "trans", "bisexual", "morning", "afternoon", "evening", "spaces"]
+    "tags": ["morning", "afternoon", "evening", "spaces"]
   },
   {
     "title": "The Brown Elephant",
     "description": "Queer-focused thrift store that offers free HIV And STI screenings.",
     "image": "https://www.yelp.com/biz_photos/brown-elephant-resale-shop-chicago?select=X2bcn3w3P_D21O0XpM6W8w",
-    "tags": ["gay", "lesbian", "trans", "bisexual", "morning", "afternoon", "evening", "spaces"]
+    "tags": ["morning", "afternoon", "evening", "spaces"]
   },
   {
     "title": "Chicago Queer Contra",
     "description": "Queer-focused thrift store that offers free HIV And STI screenings.",
     "image": "https://chicagoqueercontra.wordpress.com/wp-content/uploads/2017/03/queer-contra-3.jpg?w=2000&h=1200&crop=1",
-    "tags": ["gay", "lesbian", "trans", "bisexual", "morning", "afternoon", "evening", "group"]
+    "tags": ["morning", "afternoon", "evening", "group"]
   }
 ]
