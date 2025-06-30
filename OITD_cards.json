@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Morning Yoga Meetup",
+    "description": "Start your day with a gentle yoga flow in the park.",
+    "image": "https://placekitten.com/400/300",
+    "tags": ["gay", "morning", "events"]
+  },
+  {
+    "title": "Queer Book Club",
+    "description": "Discuss this month's pick over coffee—no alcohol involved!",
+    "image": "https://placekitten.com/400/301",
+    "tags": ["bisexual", "afternoon", "groups"]
+  },
+  {
+    "title": "Community Art Workshop",
+    "description": "Create together in a relaxed, welcoming space.",
+    "image": "https://placekitten.com/400/302",
+    "tags": ["trans", "lesbian", "evening", "spaces"]
+  }
+]
