@@ -16,5 +16,17 @@
     "description": "Chicago based online non-alcoholic bottle shop.",
     "image": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2022/11/bottle-shop.jpg?fit=780%2C544&ssl=1",
     "tags": ["gay", "lesbian", "trans", "bisexual", "morning", "afternoon", "evening", "spaces"]
+  },
+  {
+    "title": "The Brown Elephant",
+    "description": "Queer-focused thrift store that offers free HIV And STI screenings.",
+    "image": "https://www.yelp.com/biz_photos/brown-elephant-resale-shop-chicago?select=X2bcn3w3P_D21O0XpM6W8w",
+    "tags": ["gay", "lesbian", "trans", "bisexual", "morning", "afternoon", "evening", "spaces"]
+  },
+  {
+    "title": "Chicago Queer Contra",
+    "description": "Queer-focused thrift store that offers free HIV And STI screenings.",
+    "image": "https://chicagoqueercontra.wordpress.com/wp-content/uploads/2017/03/queer-contra-3.jpg?w=2000&h=1200&crop=1",
+    "tags": ["gay", "lesbian", "trans", "bisexual", "morning", "afternoon", "evening", "group"]
   }
 ]
