@@ -28,5 +28,11 @@
     "description": "Queer-focused thrift store that offers free HIV And STI screenings.",
     "image": "https://chicagoqueercontra.wordpress.com/wp-content/uploads/2017/03/queer-contra-3.jpg?w=2000&h=1200&crop=1",
     "tags": ["morning", "afternoon", "evening", "group"]
+  },
+  {
+    "title": "Lez Get Together",
+    "description": "Lesbian social group.",
+    "image": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2023/03/IMG_6420-1.jpg?fit=780%2C439&ssl=1",
+    "tags": ["lesbian", "morning", "afternoon", "evening", "group"]
   }
 ]
