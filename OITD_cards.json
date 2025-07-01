@@ -68,5 +68,15 @@
     "identity": [],
     "time": ["Evening"],
     "vibe": ["Outdoor"]
+  },
+  {
+    "title": "Leather Archives & Museum",
+    "url": "https://www.choosechicago.com/listing/leather-archives-museum/",
+    "image": "https://chicago.simpleviewcrm.com/images/listings/IMG_69250.jpg",
+    "location": ["Chicago, IL"],
+    "type": ["Space"],
+    "identity": [],
+    "time": ["Morning", "Afternoon", "Evening"],
+    "vibe": ["Kink"]
   }
 ]
