@@ -20,14 +20,14 @@ while True:
 
         if selection == '0': # Add card
             # Gather card information
-            card_title = input('\nTitle: ')
-            card_url = input('URL: ')
-            card_image = input('Image: ')
-            card_location = input('Location: ').split('|')
-            card_type = input('Type: ').split('|')
-            card_identity = input('Identity: ').split('|')
-            card_time = input('Time: ').split('|')
-            card_vibe = input('Vibe: ').split('|')
+            card_title = input('\nTitle: ').strip()
+            card_url = input('URL: ').strip()
+            card_image = input('Image: ').strip()
+            card_location = [s.strip() for s in input('Location: ').split('|')]
+            card_type = [s.strip() for s in input('Type: ').split('|')]
+            card_identity = [s.strip() for s in input('Identity: ').split('|')]
+            card_time = [s.strip() for s in input('Time: ').split('|')]
+            card_vibe = [s.strip() for s in input('Vibe: ').split('|')]
 
             # Create the new card
             new_card = {
