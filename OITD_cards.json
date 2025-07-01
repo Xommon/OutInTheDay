@@ -6,7 +6,7 @@
     "type": ["Space"],
     "identity": [],
     "time": ["Morning", "Afternoon", "Evening"],
-    "vibe": ["Bar"]
+    "vibe": ["Dry Bar"]
   },
   {
     "title": "Anne's Haven",
@@ -24,7 +24,7 @@
     "type": ["Space"],
     "identity": [],
     "time": ["Morning", "Afternoon", "Evening"],
-    "vibe": ["Bar"]
+    "vibe": ["Dry Bar"]
   },
   {
     "title": "The Brown Elephant",
