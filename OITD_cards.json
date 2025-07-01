@@ -3,110 +3,241 @@
     "title": "Eli Tea Bar",
     "url": "https://www.eliteabar.com/",
     "image": "https://lh3.googleusercontent.com/p/AF1QipNr0vg5BuTYohcGwRhOb-HU1V6HRZebxm7ww5m2=s680-w680-h510",
-    "location": ["Chicago, IL"],
-    "type": ["Space"],
+    "location": [
+      "Chicago, IL"
+    ],
+    "type": [
+      "Space"
+    ],
     "identity": [],
-    "time": ["Morning", "Afternoon", "Evening"],
-    "vibe": ["Dry Bar", "Family-Friendly"]
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "vibe": [
+      "Dry Bar",
+      "Family-Friendly"
+    ]
   },
   {
     "title": "Anne's Haven",
     "url": "http://www.anneshaven.net/",
     "image": "https://lh3.googleusercontent.com/p/AF1QipP0W-Z0oAalWVIDtNi4EG3Rvuxq8J6h0KzITrXB=s680-w680-h510",
-    "location": ["Chicago, IL"],
-    "type": ["Group", "Space"],
-    "identity": ["Lesbian"],
-    "time": ["Morning", "Afternoon", "Evening"],
+    "location": [
+      "Chicago, IL"
+    ],
+    "type": [
+      "Group",
+      "Space"
+    ],
+    "identity": [
+      "Lesbian"
+    ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
     "vibe": []
   },
   {
     "title": "Bendición Dry Bar",
     "url": "https://www.instagram.com/bendicion_bottleshop/?hl=en",
     "image": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2022/11/bottle-shop.jpg?fit=780%2C544&ssl=1",
-    "location": ["Chicago, IL"],
-    "type": ["Space"],
+    "location": [
+      "Chicago, IL"
+    ],
+    "type": [
+      "Space"
+    ],
     "identity": [],
-    "time": ["Morning", "Afternoon", "Evening"],
-    "vibe": ["Dry Bar"]
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "vibe": [
+      "Dry Bar"
+    ]
   },
   {
     "title": "The Brown Elephant",
     "url": "https://howardbrown.org/get-involved/brown-elephant/",
     "image": "https://www.yelp.com/biz_photos/brown-elephant-resale-shop-chicago?select=X2bcn3w3P_D21O0XpM6W8w",
-    "location": ["Chicago, IL"],
-    "type": ["Space"],
+    "location": [
+      "Chicago, IL"
+    ],
+    "type": [
+      "Space"
+    ],
     "identity": [],
-    "time": ["Morning", "Afternoon", "Evening"],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
     "vibe": []
   },
   {
     "title": "Chicago Queer Contra",
     "url": "https://chicagoqueercontra.wordpress.com/",
     "image": "https://chicagoqueercontra.wordpress.com/wp-content/uploads/2017/03/queer-contra-3.jpg?w=2000&h=1200&crop=1",
-    "location": ["Chicago, IL"],
-    "type": ["Group"],
+    "location": [
+      "Chicago, IL"
+    ],
+    "type": [
+      "Group"
+    ],
     "identity": [],
-    "time": ["Morning", "Afternoon", "Evening"],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
     "vibe": []
   },
   {
     "title": "Lez Get Together",
     "url": "https://linktr.ee/lezgetogether",
     "image": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2023/03/IMG_6420-1.jpg?fit=780%2C439&ssl=1",
-    "location": ["Chicago, IL"],
-    "type": ["Group"],
-    "identity": ["Lesbian"],
-    "time": ["Morning", "Afternoon", "Evening"],
+    "location": [
+      "Chicago, IL"
+    ],
+    "type": [
+      "Group"
+    ],
+    "identity": [
+      "Lesbian"
+    ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
     "vibe": []
   },
   {
     "title": "Full Moon Jam",
     "url": "https://www.fullmoonjam.org/",
     "image": "https://i0.wp.com/chicagoonthecheap.com/lotc-cms/wp-content/uploads/firejam.jpeg?w=600&ssl=1",
-    "location": ["Chicago, IL"],
-    "type": ["Event"],
+    "location": [
+      "Chicago, IL"
+    ],
+    "type": [
+      "Event"
+    ],
     "identity": [],
-    "time": ["Evening"],
-    "vibe": ["Outdoor", "Family-Friendly"]
+    "time": [
+      "Evening"
+    ],
+    "vibe": [
+      "Outdoor",
+      "Family-Friendly"
+    ]
   },
   {
     "title": "Leather Archives & Museum",
     "url": "https://www.choosechicago.com/listing/leather-archives-museum/",
     "image": "https://chicago.simpleviewcrm.com/images/listings/IMG_69250.jpg",
-    "location": ["Chicago, IL"],
-    "type": ["Space"],
+    "location": [
+      "Chicago, IL"
+    ],
+    "type": [
+      "Space"
+    ],
     "identity": [],
-    "time": ["Morning", "Afternoon", "Evening"],
-    "vibe": ["Kink (18+)", "Adults Only (18+)"]
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "vibe": [
+      "Kink (18+)",
+      "Adults Only (18+)"
+    ]
   },
   {
     "title": "The Neo-Futurists (Chicago)",
     "url": "https://neofuturists.org/",
     "image": "https://neofuturists.org/app/uploads/2018/05/Screen-Shot-2022-12-05-at-3.00.46-PM.png",
-    "location": ["Chicago, IL"],
-    "type": ["Space"],
+    "location": [
+      "Chicago, IL"
+    ],
+    "type": [
+      "Space"
+    ],
     "identity": [],
-    "time": ["Evening"],
-    "vibe": ["Adults Only (18+)", "Performance"]
+    "time": [
+      "Evening"
+    ],
+    "vibe": [
+      "Adults Only (18+)",
+      "Performance"
+    ]
   },
   {
     "title": "The Neo-Futurists (New York)",
     "url": "https://www.nyneofuturists.org/",
     "image": "https://images.squarespace-cdn.com/content/v1/609fb694a05a79005fb0ee73/1623425360345-N3DKAE8EI140GEKD7NKR/family.jpg",
-    "location": ["New York, NY"],
-    "type": ["Space"],
+    "location": [
+      "New York, NY"
+    ],
+    "type": [
+      "Space"
+    ],
     "identity": [],
-    "time": ["Evening"],
-    "vibe": ["Adults Only (18+)", "Performance"]
+    "time": [
+      "Evening"
+    ],
+    "vibe": [
+      "Adults Only (18+)",
+      "Performance"
+    ]
   },
   {
     "title": "Aces and Aros of Chicago",
     "url": "https://www.meetup.com/aces-and-aros-of-chicago/",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Asexual_Pride_Flag.svg/640px-Asexual_Pride_Flag.svg.png",
-    "location": ["Chicago, IL"],
-    "type": ["Group"],
-    "identity": ["Asexual", "Aromantic"],
-    "time": ["Morning", "Afternoon", "Evening"],
-    "vibe": ["Adults Only (18+)"]
+    "location": [
+      "Chicago, IL"
+    ],
+    "type": [
+      "Group"
+    ],
+    "identity": [
+      "Asexual",
+      "Aromantic"
+    ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "vibe": [
+      "Adults Only (18+)"
+    ]
+  },
+  {
+    "title": "Unabridged Bookstore",
+    "url": "https://www.unabridgedbookstore.com/",
+    "image": "https://www.unabridgedbookstore.com/sites/unabridgedbookstore.com/files/Unabridged%20logo_pride%20flag.jpg",
+    "location": [
+      "Chicago, IL"
+    ],
+    "type": [
+      "Space"
+    ],
+    "identity": [
+      ""
+    ],
+    "time": [
+      "Morning ",
+      " Afternoon ",
+      " Evening"
+    ],
+    "vibe": [
+      ""
+    ]
   }
 ]
