@@ -111,6 +111,7 @@
     "image": "https://womenandchildrenfirst.com/sites/default/files/styles/logo_brand/public/2025-02/wcf-logo-transparent-backgroundjpeg.png?itok=-R6jVkYF",
     "location": ["Chicago, IL"],
     "type": ["Space"],
-    "time": ["Morning", "Afternoon", "Evening"]
+    "time": ["Morning", "Afternoon", "Evening"],
+    "vibe": ["Family-Friendly"]
   }
 ]
