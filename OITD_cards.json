@@ -1,6 +1,7 @@
 [
   {
     "title": "Eli Tea Bar",
+    "url": "https://www.eliteabar.com/",
     "image": "https://lh3.googleusercontent.com/p/AF1QipNr0vg5BuTYohcGwRhOb-HU1V6HRZebxm7ww5m2=s680-w680-h510",
     "location": ["Chicago, IL"],
     "type": ["Space"],
@@ -10,6 +11,7 @@
   },
   {
     "title": "Anne's Haven",
+    "url": "http://www.anneshaven.net/",
     "image": "https://lh3.googleusercontent.com/p/AF1QipP0W-Z0oAalWVIDtNi4EG3Rvuxq8J6h0KzITrXB=s680-w680-h510",
     "location": ["Chicago, IL"],
     "type": ["Group", "Space"],
@@ -19,6 +21,7 @@
   },
   {
     "title": "Bendición Dry Bar",
+    "url": "https://www.instagram.com/bendicion_bottleshop/?hl=en",
     "image": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2022/11/bottle-shop.jpg?fit=780%2C544&ssl=1",
     "location": ["Chicago, IL"],
     "type": ["Space"],
@@ -28,6 +31,7 @@
   },
   {
     "title": "The Brown Elephant",
+    "url": "https://howardbrown.org/get-involved/brown-elephant/",
     "image": "https://www.yelp.com/biz_photos/brown-elephant-resale-shop-chicago?select=X2bcn3w3P_D21O0XpM6W8w",
     "location": ["Chicago, IL"],
     "type": ["Space"],
@@ -37,6 +41,7 @@
   },
   {
     "title": "Chicago Queer Contra",
+    "url": "https://chicagoqueercontra.wordpress.com/",
     "image": "https://chicagoqueercontra.wordpress.com/wp-content/uploads/2017/03/queer-contra-3.jpg?w=2000&h=1200&crop=1",
     "location": ["Chicago, IL"],
     "type": ["Group"],
@@ -46,6 +51,7 @@
   },
   {
     "title": "Lez Get Together",
+    "url": "https://linktr.ee/lezgetogether",
     "image": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2023/03/IMG_6420-1.jpg?fit=780%2C439&ssl=1",
     "location": ["Chicago, IL"],
     "type": ["Group"],
@@ -55,6 +61,7 @@
   },
   {
     "title": "Full Moon Jam",
+    "url": "https://www.fullmoonjam.org/",
     "image": "https://i0.wp.com/chicagoonthecheap.com/lotc-cms/wp-content/uploads/firejam.jpeg?w=600&ssl=1",
     "location": ["Chicago, IL"],
     "type": ["Event"],
