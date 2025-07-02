@@ -123,5 +123,14 @@
     "identity": ["Bisexual"],
     "time": ["Morning", "Afternoon", "Evening"],
     "vibe": ["Adults Only (18+)"]
+  },
+  {
+    "title": "Queer Yoga Chicago",
+    "url": "https://www.queeryogachicago.com/",
+    "image": "https://images.squarespace-cdn.com/content/v1/5f7d404e6c6e5d308e19dca1/1606336299163-QJMT5XXTCE7IPQUTG8N7/Queer+Yoga+Chicago+Logo.png",
+    "location": ["Chicago, IL"],
+    "setting": ["Group"],
+    "time": ["Morning", "Afternoon", "Evening"],
+    "vibe": ["Wellness"]
   }
 ]

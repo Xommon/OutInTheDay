@@ -68,28 +68,44 @@ while True:
 
     if selection == '0':
         # Add Card
-        card_title = input('\nTitle: ').strip()
-        card_url = input('URL: ').strip()
-        card_image = input('Image: ').strip()
-        card_location = [s.strip() for s in input('Location: ').split('|') if s.strip()]
-        card_setting = [s.strip() for s in input('Setting: ').split('|') if s.strip()]
-        card_identity = [s.strip() for s in input('Identity: ').split('|') if s.strip()]
-        card_time = [s.strip() for s in input('Time: ').split('|') if s.strip()]
-        card_vibe = [s.strip() for s in input('Vibe: ').split('|') if s.strip()]
+        card_code = input('\nCode: ').strip()
 
-        new_card = {}
-        if card_title: new_card["title"] = card_title
-        if card_url: new_card["url"] = card_url
-        if card_image: new_card["image"] = card_image
-        if card_location: new_card["location"] = card_location
-        if card_setting: new_card["setting"] = card_setting
-        if card_identity: new_card["identity"] = card_identity
-        if card_time: new_card["time"] = card_time
-        if card_vibe: new_card["vibe"] = card_vibe
+        if card_code:
+            parts = [p.strip() for p in card_code.split('|')]
+            while len(parts) < 8:
+                parts.append("")
+            new_card = {}
+            if parts[0]: new_card["title"] = parts[0]
+            if parts[1]: new_card["url"] = parts[1]
+            if parts[2]: new_card["image"] = parts[2]
+            if parts[3]: new_card["location"] = [x.strip() for x in parts[3].split(';') if x.strip()]
+            if parts[4]: new_card["setting"] = [x.strip() for x in parts[4].split(';') if x.strip()]
+            if parts[5]: new_card["identity"] = [x.strip() for x in parts[5].split(';') if x.strip()]
+            if parts[6]: new_card["time"] = [x.strip() for x in parts[6].split(';') if x.strip()]
+            if parts[7]: new_card["vibe"] = [x.strip() for x in parts[7].split(';') if x.strip()]
+        else:
+            card_title = input('Title: ').strip()
+            card_url = input('URL: ').strip()
+            card_image = input('Image: ').strip()
+            card_location = [s.strip() for s in input('Location: ').split(';') if s.strip()]
+            card_setting = [s.strip() for s in input('Setting: ').split(';') if s.strip()]
+            card_identity = [s.strip() for s in input('Identity: ').split(';') if s.strip()]
+            card_time = [s.strip() for s in input('Time: ').split(';') if s.strip()]
+            card_vibe = [s.strip() for s in input('Vibe: ').split(';') if s.strip()]
+
+            new_card = {}
+            if card_title: new_card["title"] = card_title
+            if card_url: new_card["url"] = card_url
+            if card_image: new_card["image"] = card_image
+            if card_location: new_card["location"] = card_location
+            if card_setting: new_card["setting"] = card_setting
+            if card_identity: new_card["identity"] = card_identity
+            if card_time: new_card["time"] = card_time
+            if card_vibe: new_card["vibe"] = card_vibe
 
         data.append(new_card)
         save_custom_format(data, cards_json)
-        print(card_title, 'added to cards.\n')
+        print(new_card.get("title","[No title]"), 'added to cards.\n')
         time.sleep(2)
 
     elif selection == '1':
@@ -112,7 +128,7 @@ while True:
 
         current_value = card.get(field, "")
         if isinstance(current_value, list):
-            current_str = "  |  ".join(current_value)
+            current_str = "  ;  ".join(current_value)
         else:
             current_str = current_value
 
@@ -134,7 +150,7 @@ while True:
                 print(f"{field} removed.")
         else:
             if field in ["location", "setting", "identity", "time", "vibe"]:
-                new_value = [s.strip() for s in edit_input.split('|') if s.strip()]
+                new_value = [s.strip() for s in edit_input.split(';') if s.strip()]
                 card[field] = new_value
             else:
                 card[field] = edit_input
@@ -159,4 +175,3 @@ while True:
 
         # Reset completer
         readline.set_completer(None)
-
