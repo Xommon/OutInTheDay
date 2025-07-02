@@ -1,9 +1,9 @@
 [
   {
     "title": "Eli Tea Bar",
-    "description": "A tea bar with kombucha on tap.",
     "url": "https://www.eliteabar.com/",
     "image": "https://lh3.googleusercontent.com/p/AF1QipNr0vg5BuTYohcGwRhOb-HU1V6HRZebxm7ww5m2=s680-w680-h510",
+    "description": "A tea bar with kombucha on tap.",
     "location": ["Chicago, IL"],
     "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
@@ -54,14 +54,14 @@
   },
   {
     "title": "Full Moon Jam",
-    "description": "Outdoor fire performance with drum circle.",
     "url": "https://www.fullmoonjam.org/",
     "image": "https://i0.wp.com/chicagoonthecheap.com/lotc-cms/wp-content/uploads/firejam.jpeg?w=600&ssl=1",
+    "description": "Outdoor fire performance with drum circle.",
+    "date": "['2025: June 11, June 20, July 4, July 10, August 8, September 8']",
     "location": ["Chicago, IL"],
     "setting": ["Event"],
     "time": ["Evening"],
-    "vibe": ["Outdoor", "Family-Friendly"],
-    "date": ["2025: June 11, June 20, July 4, July 10, August 8, September 8"]
+    "vibe": ["Outdoor", "Family-Friendly"]
   },
   {
     "title": "Leather Archives & Museum",
@@ -74,20 +74,21 @@
   },
   {
     "title": "The Neo-Futurists (Chicago)",
-    "description": "Live show where actors perform 30 plays in 60 minutes.",
     "url": "https://neofuturists.org/",
     "image": "https://neofuturists.org/app/uploads/2018/05/Screen-Shot-2022-12-05-at-3.00.46-PM.png",
+    "description": "Live show where actors perform 30 plays in 60 minutes.",
+    "date": "['Friday 10:30pm, Saturday 10:30pm, Sunday 7:00pm']",
     "location": ["Chicago, IL"],
     "setting": ["Event"],
     "time": ["Evening"],
-    "vibe": ["Adults Only (18+)", "Performance"],
-    "date": ["2025: Friday 10:30pm, Saturday 10:30pm, Sunday 7:00pm"]
+    "vibe": ["Adults Only (18+)", "Performance"]
   },
   {
     "title": "The Neo-Futurists (NYC)",
-    "description": "Live show where actors perform 30 plays in 60 minutes.",
     "url": "https://www.nyneofuturists.org/",
     "image": "https://images.squarespace-cdn.com/content/v1/609fb694a05a79005fb0ee73/1623425360345-N3DKAE8EI140GEKD7NKR/family.jpg",
+    "description": "Live show where actors perform 30 plays in 60 minutes.",
+    "date": "Friday 9:30pm, Saturday 9:30pm",
     "location": ["New York, NY"],
     "setting": ["Event"],
     "time": ["Evening"],
@@ -129,5 +130,16 @@
     "identity": ["Bisexual"],
     "time": ["Morning", "Afternoon", "Evening"],
     "vibe": ["Adults Only (18+)"]
+  },
+  {
+    "title": "The Neo-Futurists (San Francisco)",
+    "url": "https://www.sfneofuturists.org/",
+    "image": "https://images.squarespace-cdn.com/content/v1/5c68a181e666694eb6e683ab/b59b6116-5915-41a3-b008-0c52a23e7d1b/SFNF+Infinite+Pride+2024-71.jpg",
+    "description": "Live show where actors perform 30 plays in 60 minutes.",
+    "date": "Friday 9:00pm, Saturday 9:00pm",
+    "location": ["San Francisco, CA"],
+    "setting": ["Event"],
+    "time": ["Evening"],
+    "vibe": ["Adults Only (18+) | Performance"]
   }
 ]
