@@ -11,7 +11,7 @@ import readline
 cards_json = os.path.join(os.path.dirname(os.path.abspath(__file__)), "OITD_cards.json")
 
 # Constants
-FIELDS = ["title", "url", "image", "description", "date", "location", "setting", "identity", "time", "vibe"]
+FIELDS = ["title", "url", "image", "description", "date", "location", "setting", "identity", "time", "accommodations", "vibe"]
 CARD_TITLES = []
 
 # Completers
@@ -48,6 +48,8 @@ def save_custom_format(data, path):
                 fields.append(f'    "identity": {json.dumps(card["identity"], ensure_ascii=False)}')
             if "time" in card and card["time"]:
                 fields.append(f'    "time": {json.dumps(card["time"], ensure_ascii=False)}')
+            if "accommodations" in card and card["accommodations"]:
+                fields.append(f'    "accommodations": {json.dumps(card["accommodations"], ensure_ascii=False)}')
             if "vibe" in card and card["vibe"]:
                 fields.append(f'    "vibe": {json.dumps(card["vibe"], ensure_ascii=False)}')
             f.write(",\n".join(fields))
@@ -76,7 +78,7 @@ while True:
 
         if card_code:
             parts = [p.strip() for p in card_code.split('|')]
-            while len(parts) < 10:
+            while len(parts) < 11:
                 parts.append("")
             new_card = {}
             if parts[0]: new_card["title"] = parts[0]
@@ -88,7 +90,8 @@ while True:
             if parts[6]: new_card["setting"] = [x.strip() for x in parts[6].split(';') if x.strip()]
             if parts[7]: new_card["identity"] = [x.strip() for x in parts[7].split(';') if x.strip()]
             if parts[8]: new_card["time"] = [x.strip() for x in parts[8].split(';') if x.strip()]
-            if parts[9]: new_card["vibe"] = [x.strip() for x in parts[9].split(';') if x.strip()]
+            if parts[9]: new_card["accommodations"] = [x.strip() for x in parts[9].split(';') if x.strip()]
+            if parts[10]: new_card["vibe"] = [x.strip() for x in parts[10].split(';') if x.strip()]
         else:
             card_title = input('Title: ').strip()
             card_url = input('URL: ').strip()
@@ -99,6 +102,7 @@ while True:
             card_setting = [s.strip() for s in input('Setting: ').split(';') if s.strip()]
             card_identity = [s.strip() for s in input('Identity: ').split(';') if s.strip()]
             card_time = [s.strip() for s in input('Time: ').split(';') if s.strip()]
+            card_accommodations = [s.strip() for s in input('Accommodations: ').split(';') if s.strip()]
             card_vibe = [s.strip() for s in input('Vibe: ').split(';') if s.strip()]
 
             new_card = {}
@@ -111,6 +115,7 @@ while True:
             if card_setting: new_card["setting"] = card_setting
             if card_identity: new_card["identity"] = card_identity
             if card_time: new_card["time"] = card_time
+            if card_accommodations: new_card["accommodations"] = card_accommodations
             if card_vibe: new_card["vibe"] = card_vibe
 
         data.append(new_card)
@@ -159,7 +164,7 @@ while True:
                 del card[field]
                 print(f"{field} removed.")
         else:
-            if field in ["location", "setting", "identity", "time", "vibe"]:
+            if field in ["location", "setting", "identity", "time", "accommodations", "vibe"]:
                 new_value = [s.strip() for s in edit_input.split(';') if s.strip()]
                 card[field] = new_value
             else:

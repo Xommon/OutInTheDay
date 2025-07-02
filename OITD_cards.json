@@ -7,6 +7,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
+    "accommodations": ["Dog-Friendly"],
     "vibe": ["Sober", "Family-Friendly"]
   },
   {
@@ -27,6 +28,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
+    "accommodations": ["Wheelchair Accessible"],
     "vibe": ["Family-Friendly", "Sober"]
   },
   {
@@ -59,6 +61,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Event"],
     "time": ["Evening"],
+    "accommodations": ["Wheelchair Accessible", "Free"],
     "vibe": ["Outdoor", "Family-Friendly", "Sober"]
   },
   {
@@ -80,6 +83,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Event"],
     "time": ["Evening"],
+    "accommodations": ["Wheelchair Accessible", "Pay What You Can"],
     "vibe": ["Adults Only (18+)", "Performance", "Sober"]
   },
   {
@@ -91,6 +95,7 @@
     "location": ["New York, NY"],
     "setting": ["Event"],
     "time": ["Evening"],
+    "accommodations": ["Wheelchair Accessible"],
     "vibe": ["Adults Only (18+)", "Performance", "Sober"]
   },
   {
@@ -112,6 +117,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
+    "accommodations": ["Wheelchair Accessible", "Low Volume"],
     "vibe": ["Family-Friendly", "Sober"]
   },
   {
@@ -122,6 +128,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
+    "accommodations": ["Wheelchair Accessible", "Low Volume"],
     "vibe": ["Family-Friendly", "Sober"]
   },
   {
@@ -144,6 +151,7 @@
     "location": ["San Francisco, CA"],
     "setting": ["Event"],
     "time": ["Evening"],
+    "accommodations": ["Wheelchair Accessible", "Pay What You Can"],
     "vibe": ["Adults Only (18+)", "Performance", "Sober"]
   },
   {
@@ -154,6 +162,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
+    "accommodations": ["Wheelchair Accessible"],
     "vibe": ["Family-Friendly", "Sober"]
   }
 ]
