@@ -54,6 +54,7 @@
   },
   {
     "title": "Full Moon Jam",
+    "description": "Outdoor fire performance with drum circle.",
     "url": "https://www.fullmoonjam.org/",
     "image": "https://i0.wp.com/chicagoonthecheap.com/lotc-cms/wp-content/uploads/firejam.jpeg?w=600&ssl=1",
     "location": ["Chicago, IL"],
@@ -73,16 +74,18 @@
   },
   {
     "title": "The Neo-Futurists (Chicago)",
+    "description": "Live show where actors perform 30 plays in 60 minutes.",
     "url": "https://neofuturists.org/",
     "image": "https://neofuturists.org/app/uploads/2018/05/Screen-Shot-2022-12-05-at-3.00.46-PM.png",
     "location": ["Chicago, IL"],
     "setting": ["Event"],
     "time": ["Evening"],
     "vibe": ["Adults Only (18+)", "Performance"],
-    "date": ["2025: June 11, June 20, July 4, July 10, August 8, September 8"]
+    "date": ["2025: Friday 10:30pm, Saturday 10:30pm, Sunday 7:00pm"]
   },
   {
     "title": "The Neo-Futurists (New York)",
+    "description": "Live show where actors perform 30 plays in 60 minutes.",
     "url": "https://www.nyneofuturists.org/",
     "image": "https://images.squarespace-cdn.com/content/v1/609fb694a05a79005fb0ee73/1623425360345-N3DKAE8EI140GEKD7NKR/family.jpg",
     "location": ["New York, NY"],
