@@ -11,7 +11,7 @@ import readline
 cards_json = os.path.join(os.path.dirname(os.path.abspath(__file__)), "OITD_cards.json")
 
 # Constants
-FIELDS = ["title", "url", "image", "location", "type", "identity", "time", "vibe"]
+FIELDS = ["title", "url", "image", "location", "setting", "identity", "time", "vibe"]
 CARD_TITLES = []
 
 # Completers
@@ -38,8 +38,8 @@ def save_custom_format(data, path):
                 fields.append(f'    "image": "{card["image"]}"')
             if "location" in card and card["location"]:
                 fields.append(f'    "location": {json.dumps(card["location"], ensure_ascii=False)}')
-            if "type" in card and card["type"]:
-                fields.append(f'    "type": {json.dumps(card["type"], ensure_ascii=False)}')
+            if "setting" in card and card["setting"]:
+                fields.append(f'    "setting": {json.dumps(card["setting"], ensure_ascii=False)}')
             if "identity" in card and card["identity"]:
                 fields.append(f'    "identity": {json.dumps(card["identity"], ensure_ascii=False)}')
             if "time" in card and card["time"]:
@@ -72,7 +72,7 @@ while True:
         card_url = input('URL: ').strip()
         card_image = input('Image: ').strip()
         card_location = [s.strip() for s in input('Location: ').split('|') if s.strip()]
-        card_type = [s.strip() for s in input('Type: ').split('|') if s.strip()]
+        card_setting = [s.strip() for s in input('Setting: ').split('|') if s.strip()]
         card_identity = [s.strip() for s in input('Identity: ').split('|') if s.strip()]
         card_time = [s.strip() for s in input('Time: ').split('|') if s.strip()]
         card_vibe = [s.strip() for s in input('Vibe: ').split('|') if s.strip()]
@@ -82,7 +82,7 @@ while True:
         if card_url: new_card["url"] = card_url
         if card_image: new_card["image"] = card_image
         if card_location: new_card["location"] = card_location
-        if card_type: new_card["type"] = card_type
+        if card_setting: new_card["setting"] = card_setting
         if card_identity: new_card["identity"] = card_identity
         if card_time: new_card["time"] = card_time
         if card_vibe: new_card["vibe"] = card_vibe
@@ -133,7 +133,7 @@ while True:
                 del card[field]
                 print(f"{field} removed.")
         else:
-            if field in ["location", "type", "identity", "time", "vibe"]:
+            if field in ["location", "setting", "identity", "time", "vibe"]:
                 new_value = [s.strip() for s in edit_input.split('|') if s.strip()]
                 card[field] = new_value
             else:

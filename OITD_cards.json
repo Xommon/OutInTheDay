@@ -4,7 +4,7 @@
     "url": "https://www.eliteabar.com/",
     "image": "https://lh3.googleusercontent.com/p/AF1QipNr0vg5BuTYohcGwRhOb-HU1V6HRZebxm7ww5m2=s680-w680-h510",
     "location": ["Chicago, IL"],
-    "type": ["Space"],
+    "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
     "vibe": ["Dry Bar", "Family-Friendly"]
   },
@@ -13,7 +13,7 @@
     "url": "http://www.anneshaven.net/",
     "image": "https://lh3.googleusercontent.com/p/AF1QipP0W-Z0oAalWVIDtNi4EG3Rvuxq8J6h0KzITrXB=s680-w680-h510",
     "location": ["Chicago, IL"],
-    "type": ["Group", "Space"],
+    "setting": ["Group", "Space"],
     "identity": ["Lesbian"],
     "time": ["Morning", "Afternoon", "Evening"]
   },
@@ -22,7 +22,7 @@
     "url": "https://www.instagram.com/bendicion_bottleshop/?hl=en",
     "image": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2022/11/bottle-shop.jpg?fit=780%2C544&ssl=1",
     "location": ["Chicago, IL"],
-    "type": ["Space"],
+    "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
     "vibe": ["Dry Bar"]
   },
@@ -31,7 +31,7 @@
     "url": "https://howardbrown.org/get-involved/brown-elephant/",
     "image": "https://afar.brightspotcdn.com/dims4/default/4019600/2147483647/strip/true/crop/2448x1680+0+792/resize/660x453!/quality/90/?url=https%3A%2F%2Fk3-prod-afar-media.s3.us-west-2.amazonaws.com%2Fbrightspot%2Ffc%2F62%2Fea537dbc3a373cd507c030aee5fb%2Foriginal-7607583893ca53873986757c56137a1f.jpg",
     "location": ["Chicago, IL"],
-    "type": ["Space"],
+    "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"]
   },
   {
@@ -39,7 +39,7 @@
     "url": "https://chicagoqueercontra.wordpress.com/",
     "image": "https://chicagoqueercontra.wordpress.com/wp-content/uploads/2017/03/queer-contra-3.jpg?w=2000&h=1200&crop=1",
     "location": ["Chicago, IL"],
-    "type": ["Group"],
+    "setting": ["Group"],
     "time": ["Morning", "Afternoon", "Evening"]
   },
   {
@@ -47,7 +47,7 @@
     "url": "https://linktr.ee/lezgetogether",
     "image": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2023/03/IMG_6420-1.jpg?fit=780%2C439&ssl=1",
     "location": ["Chicago, IL"],
-    "type": ["Group"],
+    "setting": ["Group"],
     "identity": ["Lesbian"],
     "time": ["Morning", "Afternoon", "Evening"]
   },
@@ -56,7 +56,7 @@
     "url": "https://www.fullmoonjam.org/",
     "image": "https://i0.wp.com/chicagoonthecheap.com/lotc-cms/wp-content/uploads/firejam.jpeg?w=600&ssl=1",
     "location": ["Chicago, IL"],
-    "type": ["Event"],
+    "setting": ["Event"],
     "time": ["Evening"],
     "vibe": ["Outdoor", "Family-Friendly"]
   },
@@ -65,7 +65,7 @@
     "url": "https://www.choosechicago.com/listing/leather-archives-museum/",
     "image": "https://chicago.simpleviewcrm.com/images/listings/IMG_69250.jpg",
     "location": ["Chicago, IL"],
-    "type": ["Space"],
+    "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
     "vibe": ["Kink (18+)", "Adults Only (18+)"]
   },
@@ -74,7 +74,7 @@
     "url": "https://neofuturists.org/",
     "image": "https://neofuturists.org/app/uploads/2018/05/Screen-Shot-2022-12-05-at-3.00.46-PM.png",
     "location": ["Chicago, IL"],
-    "type": ["Space"],
+    "setting": ["Space"],
     "time": ["Evening"],
     "vibe": ["Adults Only (18+)", "Performance"]
   },
@@ -83,7 +83,7 @@
     "url": "https://www.nyneofuturists.org/",
     "image": "https://images.squarespace-cdn.com/content/v1/609fb694a05a79005fb0ee73/1623425360345-N3DKAE8EI140GEKD7NKR/family.jpg",
     "location": ["New York, NY"],
-    "type": ["Space"],
+    "setting": ["Space"],
     "time": ["Evening"],
     "vibe": ["Adults Only (18+)", "Performance"]
   },
@@ -92,7 +92,7 @@
     "url": "https://www.meetup.com/aces-and-aros-of-chicago/",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Asexual_Pride_Flag.svg/640px-Asexual_Pride_Flag.svg.png",
     "location": ["Chicago, IL"],
-    "type": ["Group"],
+    "setting": ["Group"],
     "identity": ["Asexual", "Aromantic"],
     "time": ["Morning", "Afternoon", "Evening"],
     "vibe": ["Adults Only (18+)"]
@@ -102,7 +102,7 @@
     "url": "https://www.unabridgedbookstore.com/",
     "image": "https://www.unabridgedbookstore.com/sites/unabridgedbookstore.com/files/Unabridged%20logo_pride%20flag.jpg",
     "location": ["Chicago, IL"],
-    "type": ["Space"],
+    "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"]
   },
   {
@@ -110,8 +110,18 @@
     "url": "https://womenandchildrenfirst.com/",
     "image": "https://womenandchildrenfirst.com/sites/default/files/styles/logo_brand/public/2025-02/wcf-logo-transparent-backgroundjpeg.png?itok=-R6jVkYF",
     "location": ["Chicago, IL"],
-    "type": ["Space"],
+    "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
     "vibe": ["Family-Friendly"]
+  },
+  {
+    "title": "Bisexual Queer Alliance Chicago",
+    "url": "https://www.bqachicago.org/",
+    "image": "https://images.squarespace-cdn.com/content/v1/64b9641ad70fb12aac7f20b9/f11ec246-06a6-4f74-9ebf-eda5e2653241/History_large_bottom.jpg",
+    "location": ["Chicago, IL"],
+    "setting": ["Group"],
+    "identity": ["Bisexual"],
+    "time": ["Morning", "Afternoon", "Evening"],
+    "vibe": ["Adults Only (18+)"]
   }
 ]
