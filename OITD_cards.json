@@ -7,7 +7,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
-    "vibe": ["Dry Bar", "Family-Friendly"]
+    "vibe": ["Sober", "Family-Friendly"]
   },
   {
     "title": "Anne's Haven",
@@ -27,7 +27,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
-    "vibe": ["Family-Friendly"]
+    "vibe": ["Family-Friendly", "Sober"]
   },
   {
     "title": "Chicago Queer Contra",
@@ -59,7 +59,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Event"],
     "time": ["Evening"],
-    "vibe": ["Outdoor", "Family-Friendly"]
+    "vibe": ["Outdoor", "Family-Friendly", "Sober"]
   },
   {
     "title": "Leather Archives & Museum",
@@ -80,7 +80,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Event"],
     "time": ["Evening"],
-    "vibe": ["Adults Only (18+)", "Performance"]
+    "vibe": ["Adults Only (18+)", "Performance", "Sober"]
   },
   {
     "title": "The Neo-Futurists (NYC)",
@@ -91,7 +91,7 @@
     "location": ["New York, NY"],
     "setting": ["Event"],
     "time": ["Evening"],
-    "vibe": ["Adults Only (18+)", "Performance"]
+    "vibe": ["Adults Only (18+)", "Performance", "Sober"]
   },
   {
     "title": "Aces and Aros of Chicago",
@@ -112,7 +112,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
-    "vibe": ["Family-Friendly"]
+    "vibe": ["Family-Friendly", "Sober"]
   },
   {
     "title": "Women & Children First Bookstore",
@@ -122,7 +122,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
-    "vibe": ["Family-Friendly"]
+    "vibe": ["Family-Friendly", "Sober"]
   },
   {
     "title": "Bisexual Queer Alliance Chicago",
@@ -144,6 +144,16 @@
     "location": ["San Francisco, CA"],
     "setting": ["Event"],
     "time": ["Evening"],
-    "vibe": ["Adults Only (18+) | Performance"]
+    "vibe": ["Adults Only (18+)", "Performance", "Sober"]
+  },
+  {
+    "title": "Loaves & Witches",
+    "description": "Witchy coffee shop offering baked goods and pastries, including vegan and gluten-free options.",
+    "url": "https://loavesandwitches.com/",
+    "image": "https://static.spotapps.co/website_images/ab_websites/307737_website_v1/catering_left.jpg",
+    "location": ["Chicago, IL"],
+    "setting": ["Space"],
+    "time": ["Morning", "Afternoon", "Evening"],
+    "vibe": ["Family-Friendly", "Sober"]
   }
 ]
