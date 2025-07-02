@@ -11,52 +11,50 @@
   },
   {
     "title": "Anne's Haven",
+    "description": "Dedicated safe space for women and non-binary people.",
     "url": "http://www.anneshaven.net/",
     "image": "https://lh3.googleusercontent.com/p/AF1QipP0W-Z0oAalWVIDtNi4EG3Rvuxq8J6h0KzITrXB=s680-w680-h510",
     "location": ["Chicago, IL"],
     "setting": ["Group", "Space"],
-    "identity": ["Lesbian"],
+    "identity": ["Lesbian", "Non-Binary"],
     "time": ["Morning", "Afternoon", "Evening"]
   },
   {
-    "title": "Bendición Dry Bar",
-    "url": "https://www.instagram.com/bendicion_bottleshop/?hl=en",
-    "image": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2022/11/bottle-shop.jpg?fit=780%2C544&ssl=1",
-    "location": ["Chicago, IL"],
-    "setting": ["Space"],
-    "time": ["Morning", "Afternoon", "Evening"],
-    "vibe": ["Dry Bar"]
-  },
-  {
     "title": "The Brown Elephant",
+    "description": "Thrift store whose proceeds directly fund LGBTQ+ healthcare.",
     "url": "https://howardbrown.org/get-involved/brown-elephant/",
     "image": "https://afar.brightspotcdn.com/dims4/default/4019600/2147483647/strip/true/crop/2448x1680+0+792/resize/660x453!/quality/90/?url=https%3A%2F%2Fk3-prod-afar-media.s3.us-west-2.amazonaws.com%2Fbrightspot%2Ffc%2F62%2Fea537dbc3a373cd507c030aee5fb%2Foriginal-7607583893ca53873986757c56137a1f.jpg",
     "location": ["Chicago, IL"],
     "setting": ["Space"],
-    "time": ["Morning", "Afternoon", "Evening"]
+    "time": ["Morning", "Afternoon", "Evening"],
+    "vibe": ["Family-Friendly"]
   },
   {
     "title": "Chicago Queer Contra",
+    "description": "New England-style contra dancing welcome to all.",
     "url": "https://chicagoqueercontra.wordpress.com/",
     "image": "https://chicagoqueercontra.wordpress.com/wp-content/uploads/2017/03/queer-contra-3.jpg?w=2000&h=1200&crop=1",
     "location": ["Chicago, IL"],
     "setting": ["Group"],
-    "time": ["Morning", "Afternoon", "Evening"]
+    "time": ["Evening"],
+    "date": ["6:30pm to 9:30pm"]
   },
   {
     "title": "Lez Get Together",
+    "description": "Social group for lesbians.",
     "url": "https://linktr.ee/lezgetogether",
     "image": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2023/03/IMG_6420-1.jpg?fit=780%2C439&ssl=1",
     "location": ["Chicago, IL"],
     "setting": ["Group"],
     "identity": ["Lesbian"],
-    "time": ["Morning", "Afternoon", "Evening"]
+    "time": ["Morning", "Afternoon", "Evening"],
+    "vibe": ["Adults Only (18+)"]
   },
   {
     "title": "Full Moon Jam",
+    "description": "Outdoor fire performance with drum circle.",
     "url": "https://www.fullmoonjam.org/",
     "image": "https://i0.wp.com/chicagoonthecheap.com/lotc-cms/wp-content/uploads/firejam.jpeg?w=600&ssl=1",
-    "description": "Outdoor fire performance with drum circle.",
     "date": "['2025: June 11, June 20, July 4, July 10, August 8, September 8']",
     "location": ["Chicago, IL"],
     "setting": ["Event"],
@@ -65,6 +63,7 @@
   },
   {
     "title": "Leather Archives & Museum",
+    "description": "Educational and historical museum for adults.",
     "url": "https://www.choosechicago.com/listing/leather-archives-museum/",
     "image": "https://chicago.simpleviewcrm.com/images/listings/IMG_69250.jpg",
     "location": ["Chicago, IL"],
@@ -74,9 +73,9 @@
   },
   {
     "title": "The Neo-Futurists (Chicago)",
+    "description": "Live show where actors perform 30 plays in 60 minutes.",
     "url": "https://neofuturists.org/",
     "image": "https://neofuturists.org/app/uploads/2018/05/Screen-Shot-2022-12-05-at-3.00.46-PM.png",
-    "description": "Live show where actors perform 30 plays in 60 minutes.",
     "date": "Friday 10:30pm, Saturday 10:30pm, Sunday 7:00pm",
     "location": ["Chicago, IL"],
     "setting": ["Event"],
@@ -85,9 +84,9 @@
   },
   {
     "title": "The Neo-Futurists (NYC)",
+    "description": "Live show where actors perform 30 plays in 60 minutes.",
     "url": "https://www.nyneofuturists.org/",
     "image": "https://images.squarespace-cdn.com/content/v1/609fb694a05a79005fb0ee73/1623425360345-N3DKAE8EI140GEKD7NKR/family.jpg",
-    "description": "Live show where actors perform 30 plays in 60 minutes.",
     "date": "Friday 9:30pm, Saturday 9:30pm",
     "location": ["New York, NY"],
     "setting": ["Event"],
@@ -96,6 +95,7 @@
   },
   {
     "title": "Aces and Aros of Chicago",
+    "description": "Social group for asexual and aromantic people.",
     "url": "https://www.meetup.com/aces-and-aros-of-chicago/",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Asexual_Pride_Flag.svg/640px-Asexual_Pride_Flag.svg.png",
     "location": ["Chicago, IL"],
@@ -106,14 +106,17 @@
   },
   {
     "title": "Unabridged Bookstore",
+    "description": "Bookstore with LGBTQ+ books and a book club.",
     "url": "https://www.unabridgedbookstore.com/",
     "image": "https://www.unabridgedbookstore.com/sites/unabridgedbookstore.com/files/Unabridged%20logo_pride%20flag.jpg",
     "location": ["Chicago, IL"],
     "setting": ["Space"],
-    "time": ["Morning", "Afternoon", "Evening"]
+    "time": ["Morning", "Afternoon", "Evening"],
+    "vibe": ["Family-Friendly"]
   },
   {
     "title": "Women & Children First Bookstore",
+    "description": "Feminist bookstore with books for children.",
     "url": "https://womenandchildrenfirst.com/",
     "image": "https://womenandchildrenfirst.com/sites/default/files/styles/logo_brand/public/2025-02/wcf-logo-transparent-backgroundjpeg.png?itok=-R6jVkYF",
     "location": ["Chicago, IL"],
@@ -123,9 +126,10 @@
   },
   {
     "title": "Bisexual Queer Alliance Chicago",
+    "description": "Social group for bisexual people with online events.",
     "url": "https://www.bqachicago.org/",
     "image": "https://images.squarespace-cdn.com/content/v1/64b9641ad70fb12aac7f20b9/f11ec246-06a6-4f74-9ebf-eda5e2653241/History_large_bottom.jpg",
-    "location": ["Chicago, IL"],
+    "location": ["Chicago, IL", "Online"],
     "setting": ["Group"],
     "identity": ["Bisexual"],
     "time": ["Morning", "Afternoon", "Evening"],
@@ -133,9 +137,9 @@
   },
   {
     "title": "The Neo-Futurists (SF)",
+    "description": "Live show where actors perform 30 plays in 60 minutes.",
     "url": "https://www.sfneofuturists.org/",
     "image": "https://images.squarespace-cdn.com/content/v1/5c68a181e666694eb6e683ab/b59b6116-5915-41a3-b008-0c52a23e7d1b/SFNF+Infinite+Pride+2024-71.jpg",
-    "description": "Live show where actors perform 30 plays in 60 minutes.",
     "date": "Friday 9:00pm, Saturday 9:00pm",
     "location": ["San Francisco, CA"],
     "setting": ["Event"],
