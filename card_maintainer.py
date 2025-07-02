@@ -11,7 +11,7 @@ import readline
 cards_json = os.path.join(os.path.dirname(os.path.abspath(__file__)), "OITD_cards.json")
 
 # Constants
-FIELDS = ["title", "url", "image", "location", "setting", "identity", "time", "vibe"]
+FIELDS = ["title", "url", "image", "description", "date", "location", "setting", "identity", "time", "vibe"]
 CARD_TITLES = []
 
 # Completers
@@ -36,6 +36,10 @@ def save_custom_format(data, path):
                 fields.append(f'    "url": "{card["url"]}"')
             if "image" in card and card["image"]:
                 fields.append(f'    "image": "{card["image"]}"')
+            if "description" in card and card["description"]:
+                fields.append(f'    "description": "{card["description"]}"')
+            if "date" in card and card["date"]:
+                fields.append(f'    "date": "{card["date"]}"')
             if "location" in card and card["location"]:
                 fields.append(f'    "location": {json.dumps(card["location"], ensure_ascii=False)}')
             if "setting" in card and card["setting"]:
@@ -72,21 +76,25 @@ while True:
 
         if card_code:
             parts = [p.strip() for p in card_code.split('|')]
-            while len(parts) < 8:
+            while len(parts) < 10:
                 parts.append("")
             new_card = {}
             if parts[0]: new_card["title"] = parts[0]
             if parts[1]: new_card["url"] = parts[1]
             if parts[2]: new_card["image"] = parts[2]
-            if parts[3]: new_card["location"] = [x.strip() for x in parts[3].split(';') if x.strip()]
-            if parts[4]: new_card["setting"] = [x.strip() for x in parts[4].split(';') if x.strip()]
-            if parts[5]: new_card["identity"] = [x.strip() for x in parts[5].split(';') if x.strip()]
-            if parts[6]: new_card["time"] = [x.strip() for x in parts[6].split(';') if x.strip()]
-            if parts[7]: new_card["vibe"] = [x.strip() for x in parts[7].split(';') if x.strip()]
+            if parts[3]: new_card["description"] = parts[3]
+            if parts[4]: new_card["date"] = parts[4]
+            if parts[5]: new_card["location"] = [x.strip() for x in parts[5].split(';') if x.strip()]
+            if parts[6]: new_card["setting"] = [x.strip() for x in parts[6].split(';') if x.strip()]
+            if parts[7]: new_card["identity"] = [x.strip() for x in parts[7].split(';') if x.strip()]
+            if parts[8]: new_card["time"] = [x.strip() for x in parts[8].split(';') if x.strip()]
+            if parts[9]: new_card["vibe"] = [x.strip() for x in parts[9].split(';') if x.strip()]
         else:
             card_title = input('Title: ').strip()
             card_url = input('URL: ').strip()
             card_image = input('Image: ').strip()
+            card_description = input('Description: ').strip()
+            card_date = input('Date: ').strip()
             card_location = [s.strip() for s in input('Location: ').split(';') if s.strip()]
             card_setting = [s.strip() for s in input('Setting: ').split(';') if s.strip()]
             card_identity = [s.strip() for s in input('Identity: ').split(';') if s.strip()]
@@ -97,6 +105,8 @@ while True:
             if card_title: new_card["title"] = card_title
             if card_url: new_card["url"] = card_url
             if card_image: new_card["image"] = card_image
+            if card_description: new_card["description"] = card_description
+            if card_date: new_card["date"] = card_date
             if card_location: new_card["location"] = card_location
             if card_setting: new_card["setting"] = card_setting
             if card_identity: new_card["identity"] = card_identity
